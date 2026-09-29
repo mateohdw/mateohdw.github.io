@@ -1,0 +1,7 @@
+:root { color-scheme: dark; --fond: #101012; --texte: #f2f2f2; --texte-2: #9a9aa3; --accent: #3b82f6; }
+body { margin: 0; background: var(--fond); color: var(--texte); font: 16px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; }
+main { max-width: 640px; margin: 0 auto; padding: 48px 16px; }
+h1 { font-size: 1.4rem; font-weight: 600; margin: 0 0 12px; }
+p { color: var(--texte-2); margin: 0 0 12px; }
+a { color: var(--accent); }
+nav { margin-top: 32px; display: flex; gap: 20px; flex-wrap: wrap; }
